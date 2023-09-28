@@ -24,7 +24,7 @@ function Cart() {
             <div className="w-100 my-5 text-center text-danger">
               <h3>
                 <p className="mb-4">Herhangi bir ürünü sepete eklemediniz.</p>
-                <Link to="/products" className="text-dark">Alışverişe Başlayın</Link>
+                <Link to="/" className="text-dark">Alışverişe Başlayın</Link>
               </h3>
             </div>
           )
