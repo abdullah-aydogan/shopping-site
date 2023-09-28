@@ -1,0 +1,23 @@
+.img-container {
+  height: 400px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+  
+.single-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+  
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+  
+ 
+input[type="number"] {
+  appearance: textfield;
+}
