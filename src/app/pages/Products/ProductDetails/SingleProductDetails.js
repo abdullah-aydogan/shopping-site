@@ -65,7 +65,7 @@ function SingleProductDetails() {
                     <button className="btn btn-sm btn-dark fs-6 me-3 text-center" onClick={decreaseQunaity}>
                       <FaMinus />
                     </button>
-                    <input type="number" className="form-control text-center w-auto p-0 m-0" value={quantity}
+                    <input type="number" className="form-control text-center w-50 p-0 m-0" value={quantity}
                       readOnly={true}
                       required={true}/>
                     <button className="btn btn-sm btn-dark fs-6 ms-3 text-center" onClick={increaseQunaity}>
