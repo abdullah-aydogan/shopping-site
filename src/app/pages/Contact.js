@@ -21,7 +21,7 @@ function Contact() {
                 </Form.Group>
                 <Form.Group className="mb-4">
                   <Form.Label>e-Posta Adresiniz</Form.Label>
-                  <Form.Control type="email" placeholder="denemeh@example.com"></Form.Control>
+                  <Form.Control type="email" placeholder="deneme@example.com"></Form.Control>
                 </Form.Group>
                 <Form.Group className="mb-4">
                   <Form.Label>Mesajınız</Form.Label>
