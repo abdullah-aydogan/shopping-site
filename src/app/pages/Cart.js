@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 import CartItemCard from "../components/Cart/CartItemCard";
 import TopNavbar from "../components/Header/TopNavbar";
 import { subTotalPrice, totalPrice, totalTax } from "../features/Cart/CartSelector";
+import animationData from '../../lotties/shopping-anim.json';
+import Lottie from "lottie-react";
 import { cartState } from "../features/Cart/CartSlice";
 
 function Cart() {
@@ -23,6 +25,7 @@ function Cart() {
           !carts.length && (
             <div className="w-100 my-5 text-center text-danger">
               <h3>
+                <Lottie style={{ height: '200px' }} animationData={animationData} loop />
                 <p className="mb-4">Herhangi bir ürünü sepete eklemediniz.</p>
                 <Link to="/" className="text-dark">Alışverişe Başlayın</Link>
               </h3>

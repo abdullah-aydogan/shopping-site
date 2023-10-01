@@ -59,7 +59,7 @@ function SingleProductDetails() {
                       {product.category}
                     </Link>
                   </h4>
-                  <h4 className="py-2">Fiyat : ${product.price}</h4>
+                  <h4 className="py-2">Fiyat : {product.price} ₺</h4>
                   <p>{product.description}</p>
                   <div className="d-flex mb-3">
                     <button className="btn btn-sm btn-dark fs-6 me-3 text-center" onClick={decreaseQunaity}>

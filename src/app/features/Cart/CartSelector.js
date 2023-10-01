@@ -26,7 +26,7 @@ export const subTotalPrice = createSelector(cartsItem, (items) => {
   return total.toFixed(2);
 });
 
-export const totalTax = createSelector(subTotalPrice, (tax) => (tax * (2 / 100)).toFixed(2));
+export const totalTax = createSelector(subTotalPrice, (tax) => (tax * (20 / 100)).toFixed(2));
 
 export const totalPrice = createSelector(subTotalPrice, totalTax,
   (subtotal, tax) => parseFloat(subtotal) + parseFloat(tax)
